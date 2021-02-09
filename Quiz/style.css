@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.container
+{
+    width: 80%;
+    margin: auto;
+    padding: 15px 20px;
+    background-color: #f8f8f8;
+}
+.info{
+    display: flex;
+    justify-content: space-between;
+    background-color: #FFF;
+    padding: 10px 15px;
+    margin: 10px 0 ;
+}
+.quiz{
+    background-color: #FFF;
+    padding: 10px 15px;
+    margin: 10px 0 ;
+}
+.quiz .question{
+    margin: 10px;
+}
+.quiz .answer{
+    margin: 10px;
+}
+.model{
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    background-color: #f8f8f8;
+    margin: 2px;
+}
+.submit{
+    background-color: #0075FF;
+    border: 0;
+    width: 100%;
+    padding: 20px;
+    color: #FFF;
+    font-size: 25px;
+    font-weight: bold;
+    margin: 10px;
+    cursor: pointer;
+}
+.submit:focus{
+    outline: 0;
+}
+.bulluts{
+    width: 100%;
+    padding: 10px 20px;
+    background-color: #FFF;
+    display: flex;
+    justify-content: space-between;
+}
+.list span{
+    width: 15px;
+    height: 15px;
+    display: inline-block;
+    background-color: #9fa4aa;
+    border-radius: 50%;
+    margin: 3px;
+}
+input[type="radio"]:checked + label{
+    color: #0075FF;
+}
+label{
+    cursor: pointer;
+    margin: 2px;
+    font-weight: bold;
+}
+.list span.done{
+    background-color: #0075FF;
+}
+.perfect {
+    color: #268d34;
+    font-weight: bold;
+    font-size: 20px;
+}
+.Good {
+    color: #4059ac;
+    font-weight: bold;
+    font-size: 20px;
+}
+.Bad {
+    color: #cc3d3d;
+    font-weight: bold;
+    font-size: 20px;
+}
+
