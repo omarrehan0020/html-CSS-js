@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Products</title>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="css/style.css" >
+        <link rel="stylesheet" href="css/createProduct.css" >
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+    </head>
+    <body>
+
+        <header>
+            <div class="container">
+                <div class="header-content">
+                    <a href="index.html" >Shopping Cart</a>
+                    <a href="favourites.html">Favourites</a>
+                    <ul class="links">
+                        <li><a href="login.html" >Sign In</a></li>
+                        <li><a href="register.html" >Sign Up</a></li>
+                    </ul>
+                    <ul class="profile">
+                        
+                        <li><a href="profile.html"></a></li>
+                        <li class="my-products"><a href="myproducts.html">My Products</a></li>
+                        <li class="cart">
+                            <i class="fas fa-shopping-cart shop"></i>
+                            <span>0</span>
+                            <div class="chosen-items">
+                                <div class="titles">
+                                
+                                </div>
+                                <span>View Shopping Cart</span>
+                            </div>
+                        </li>
+                        <li class="logout"><a>log out</a></li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+
+        <div class="container">
+            <input type="file" id="product-img" />
+            <input type="text" id="product-name" placeholder="product name..."/>
+            <select class="product-size">
+                <option hidden>select size</option>
+                <option value="small">small</option>
+                <option value="medium">medium</option>
+                <option value="large">Large</option>
+            </select>
+            <input type="submit" id="product-create"/>
+
+
+        </div>
+
+        
+        <script src="js/createProduct.js" ></script>
+        <script src="js/user.js" ></script>
+        <script src="js/cart.js" ></script>
+    </body>
+</html>
