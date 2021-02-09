@@ -1,0 +1,58 @@
+.container ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.switch li{
+    width: 20px;
+    height: 20px;
+    margin: 10px;
+    display: inline-block;
+}
+.switch li:first-of-type{
+    background-color: red;
+}
+.switch li:nth-of-type(2){
+    background-color: black;
+}
+.switch li:nth-of-type(3){
+    background-color: blue;
+}
+.switch li:nth-of-type(4){
+    background-color: yellow;
+}
+
+.red .container h3{
+    color: red;
+}
+.red .container div {
+    width: 100%;
+    height: 200px;
+    background-color: red;
+}
+.yellow .container h3{
+    color: yellow;
+}
+.yellow .container div {
+    width: 100%;
+    height: 200px;
+    background-color: yellow;
+}
+.black .container h3{
+    color: black;
+}
+.black .container div {
+    width: 100%;
+    height: 200px;
+    background-color: black;
+}
+.blue .container h3{
+    color: blue;
+}
+.blue .container div {
+    width: 100%;
+    height: 200px;
+    background-color: blue;
+}
+
+
